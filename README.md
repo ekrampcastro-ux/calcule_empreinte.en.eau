@@ -119,10 +119,10 @@ function calculer() {
     );
 
     var message = "";
-    if (total > 3000) message = "⚠️ Très élevé";
-    else if (total > 1500) message = "😬 Élevé";
-	 else if (total > 600) message = " Moyen";
-    else message = "👍 Raisonnable";
+    if (total > 3000) message = "⚠️ Ta consommation est très élevée, principalement à cause des usages indirects comme la viande, le fast-food et le mode de vie quotidien, qui demandent énormément d’eau sans que tu t’en rendes compte.";
+    else if (total > 1500) message = "😬 Ta consommation est élevée, principalement à cause des usages indirects comme la viande, le fast-food et les activités quotidiennes gourmandes en eau.";
+	 else if (total > 600) message = " Ta consommation est modérée mais peut être réduite, notamment en limitant certains usages comme l’alimentation industrielle ou le temps d’eau utilisé.";
+    else message = "👍 Ta consommation est maîtrisée, mais une grande partie reste invisible, notamment liée à l’alimentation et au mode de vie.";
 
     document.getElementById("result").innerHTML =
         "💧 <b>" + total + " L/jour</b><br>" + message +
