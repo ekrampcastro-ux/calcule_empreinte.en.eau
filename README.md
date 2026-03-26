@@ -106,11 +106,11 @@ function calculer() {
     var eauVaisselle = vaisselle * 12 / 7;
     var eauLinge = linge * 50 / 7;
     var eauJardin = jardin * 15;
-    var eauCuisine = cuisine * 8;
+    var eauCuisine = cuisine * 4;
     var eauBoisson = boisson * 0.25;
 	var eauFastFood = fastfood * 9;
     var eauEcran = ecran * 3;
-    var eauIA = ia * 2; // estimation eau IA
+    var eauIA = ia * 4; 
 
     var total = Math.round(
         eauDouche + eauBain + eauToilette + eauVaisselle +
